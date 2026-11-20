@@ -5,8 +5,8 @@
 /*  Dumped With     : kaidumper                                 
 /*  Roblox Version  : version-2c6fd5e09aaf4cfa
 /*  Dumper Version  : 2.2.4
-/*  Dumped At       : 21:57 19/11/2026 (GMT)
-/*  Total Offsets   : 648
+/*  Dumped At       : 22:45 19/11/2026 (GMT)
+/*  Total Offsets   : 667
 /* =============================================================
 */
 
@@ -352,7 +352,7 @@ namespace Offsets {
          inline constexpr uintptr_t Health = 0x184;
          inline constexpr uintptr_t HealthDisplayDistance = 0x17c;
          inline constexpr uintptr_t HealthDisplayType = 0x180;
-         inline constexpr uintptr_t HipHeight = 0x2d5;
+         inline constexpr uintptr_t HipHeight = 0x2e4;
          inline constexpr uintptr_t HumanoidRootPart = 0x460;
          inline constexpr uintptr_t HumanoidState = 0x8a8;
          inline constexpr uintptr_t HumanoidStateID = 0x20;
@@ -500,7 +500,7 @@ namespace Offsets {
 
     namespace Luau {
          inline constexpr uintptr_t Free = 0x2613750;
-         inline constexpr uintptr_t Step = 0x2615bd0;
+         inline constexpr uintptr_t Step = 0x2575e10;
          inline constexpr uintptr_t luaB_assert = 0x58c7e80;
          inline constexpr uintptr_t luaB_error = 0x58c2f50;
          inline constexpr uintptr_t luaB_gcinfo = 0x58c5c90;
@@ -530,6 +530,28 @@ namespace Offsets {
          inline constexpr uintptr_t gray = 0x30;
          inline constexpr uintptr_t grayagain = 0x38;
          inline constexpr uintptr_t totalbytes = 0x60;
+    }
+
+    namespace LuauObject {
+         inline constexpr uintptr_t marked = 0x0;
+         inline constexpr uintptr_t memcat = 0x2;
+         inline constexpr uintptr_t node_key = 0x10;
+         inline constexpr uintptr_t node_keytt = 0x1c;
+         inline constexpr uintptr_t node_size = 0x20;
+         inline constexpr uintptr_t page_block = 0x24;
+         inline constexpr uintptr_t page_data = 0x40;
+         inline constexpr uintptr_t page_next = 0x8;
+         inline constexpr uintptr_t page_size = 0x20;
+         inline constexpr uintptr_t string_data = 0x18;
+         inline constexpr uintptr_t string_len = 0x14;
+         inline constexpr uintptr_t table_array = 0x28;
+         inline constexpr uintptr_t table_gclist = 0x20;
+         inline constexpr uintptr_t table_lsz = 0x4;
+         inline constexpr uintptr_t table_mask = 0x7;
+         inline constexpr uintptr_t table_node = 0x18;
+         inline constexpr uintptr_t table_sizearray = 0x8;
+         inline constexpr uintptr_t tt = 0x1;
+         inline constexpr uintptr_t tv_tt = 0xc;
     }
 
     namespace MaterialColors {
@@ -818,7 +840,7 @@ namespace Offsets {
     }
 
     namespace StatsItem {
-         inline constexpr uintptr_t Value = 0x98;
+         inline constexpr uintptr_t Value = 0x301ca;
     }
 
     namespace SunRaysEffect {

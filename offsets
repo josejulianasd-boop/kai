@@ -5,7 +5,7 @@
 /*  Dumped With     : kaidumper                                 
 /*  Roblox Version  : version-2c6fd5e09aaf4cfa
 /*  Dumper Version  : 2.2.4
-/*  Dumped At       : 22:45 19/11/2026 (GMT)
+/*  Dumped At       : 00:28 20/11/2026 (GMT)
 /*  Total Offsets   : 667
 /* =============================================================
 */
@@ -21,7 +21,7 @@ namespace Offsets {
     }
 
     namespace Alloc {
-         inline constexpr uintptr_t Malloc = 0x2646460;
+         inline constexpr uintptr_t Malloc = 0x25a96d0;
     }
 
     namespace AnimationTrack {
@@ -352,7 +352,7 @@ namespace Offsets {
          inline constexpr uintptr_t Health = 0x184;
          inline constexpr uintptr_t HealthDisplayDistance = 0x17c;
          inline constexpr uintptr_t HealthDisplayType = 0x180;
-         inline constexpr uintptr_t HipHeight = 0x2e4;
+         inline constexpr uintptr_t HipHeight = 0x2d5;
          inline constexpr uintptr_t HumanoidRootPart = 0x460;
          inline constexpr uintptr_t HumanoidState = 0x8a8;
          inline constexpr uintptr_t HumanoidStateID = 0x20;
@@ -544,11 +544,11 @@ namespace Offsets {
          inline constexpr uintptr_t page_size = 0x20;
          inline constexpr uintptr_t string_data = 0x18;
          inline constexpr uintptr_t string_len = 0x14;
-         inline constexpr uintptr_t table_array = 0x28;
-         inline constexpr uintptr_t table_gclist = 0x20;
+         inline constexpr uintptr_t table_array = 0x20;
+         inline constexpr uintptr_t table_gclist = 0x18;
          inline constexpr uintptr_t table_lsz = 0x4;
          inline constexpr uintptr_t table_mask = 0x7;
-         inline constexpr uintptr_t table_node = 0x18;
+         inline constexpr uintptr_t table_node = 0x28;
          inline constexpr uintptr_t table_sizearray = 0x8;
          inline constexpr uintptr_t tt = 0x1;
          inline constexpr uintptr_t tv_tt = 0xc;
@@ -748,7 +748,7 @@ namespace Offsets {
     namespace RemoteEvent {
          inline constexpr uintptr_t BaseVTableRva = 0x70a6810;
          inline constexpr uintptr_t DescBaseVTableRva = 0x70ab058;
-         inline constexpr uintptr_t FireServerRva = 0x0;
+         inline constexpr uintptr_t FireServerRva = 0x343c9c0;
          inline constexpr uintptr_t HookSlot7RemoteEventFn = 0x343e470;
          inline constexpr uintptr_t InstanceVTableRva = 0x70372f8;
          inline constexpr uintptr_t RemoteFuncVTableRva = 0x70aadf0;
@@ -780,16 +780,16 @@ namespace Offsets {
     }
 
     namespace ScriptContext {
-         inline constexpr uintptr_t GetGlobalState = 0x41d91f0;
+         inline constexpr uintptr_t GetGlobalState = 0x4138240;
          inline constexpr uintptr_t LuaState = 0x208;
          inline constexpr uintptr_t LuaStateAlt = 0x140;
          inline constexpr uintptr_t RequireBypass = 0x0;
-         inline constexpr uintptr_t Resume = 0x41d9df0;
+         inline constexpr uintptr_t Resume = 0x4138e40;
          inline constexpr uintptr_t VTable = 0x7118e40;
-         inline constexpr uintptr_t VmWrapper = 0x41d8260;
-         inline constexpr uintptr_t VmWrapper2 = 0x41d9b80;
-         inline constexpr uintptr_t VmWrapperBig = 0x41d9df0;
-         inline constexpr uintptr_t VmWrapperFn = 0x41d82d0;
+         inline constexpr uintptr_t VmWrapper = 0x41372b0;
+         inline constexpr uintptr_t VmWrapper2 = 0x4138bd0;
+         inline constexpr uintptr_t VmWrapperBig = 0x4138e40;
+         inline constexpr uintptr_t VmWrapperFn = 0x4137320;
     }
 
     namespace Seat {
@@ -816,7 +816,7 @@ namespace Offsets {
     }
 
     namespace Sound {
-         inline constexpr uintptr_t IsPlaying = 0x118;
+         inline constexpr uintptr_t IsPlaying = 0x5a0;
          inline constexpr uintptr_t Looped = 0x115;
          inline constexpr uintptr_t PlaybackSpeed = 0xfc;
          inline constexpr uintptr_t RollOffMaxDistance = 0x100;
@@ -840,7 +840,7 @@ namespace Offsets {
     }
 
     namespace StatsItem {
-         inline constexpr uintptr_t Value = 0x301ca;
+         inline constexpr uintptr_t Value = 0x3130;
     }
 
     namespace SunRaysEffect {
